@@ -8,8 +8,8 @@ tokenizer = AutoTokenizer.from_pretrained("./fine_tuned_model")
 
 # Unseen test data (replace with actual unseen data)
 unseen_texts = [
-    "Ether / IP / TCP 192.168.218.160:50536 > 54.254.188.33:http PA / Raw",
-    "Ether / IP / UDP 192.168.218.160:50536 > 54.254.188.33:http PA / Raw",
+    "Ether / IP / TCP 192.168.208.169:50536 > 54.254.183.33:http PA / Raw",
+    "Ether / IP / UDP 192.168.208.169:50536 > 54.254.183.33:http PA / Raw",
 ]
 true_labels = [1, 0]  # Replace with the actual labels for unseen data
 
