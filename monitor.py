@@ -8,7 +8,7 @@ def monitor_packet(packet):
     try:
         # Send packet info to the API as JSON
         response = requests.post(
-            "http://127.0.0.1:8000/predict/",
+            "http://your_local_host_link",
             json={"text": info},  # Ensure 'text' is part of the JSON body
             headers={"Content-Type": "application/json"}  # Explicitly set headers
         )
